@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20B29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Event" representedClassName="Event" syncable="YES">
+        <attribute name="addressDetail" attributeType="String"/>
+        <attribute name="descriptionDetail" attributeType="String"/>
+        <attribute name="picURL" attributeType="String"/>
+        <attribute name="startDate" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+        <attribute name="venueDetail" attributeType="String"/>
+        <attribute name="venueName" attributeType="String"/>
+        <attribute name="venueRating" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="venueReviews" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="when" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="-63" positionY="-18" width="128" height="14"/>
+    </elements>
+</model>
